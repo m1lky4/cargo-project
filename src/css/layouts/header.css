@@ -112,3 +112,11 @@
 .header-btn:hover{
   color:blue;
 }
+#menu {
+  display: none; /* Скрываем меню по умолчанию */
+}
+
+.show-menu {
+  display: block; /* Показываем меню, когда есть класс show-menu */
+}
+
