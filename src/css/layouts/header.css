@@ -52,7 +52,7 @@
 .header {
   position: fixed;
   z-index: 100;
-  background-color: var(--main-bg-color);
+  background-color: rgb(237, 240, 242);
   width: 100%;
   top: 0;
   left: 0;
@@ -103,7 +103,7 @@
   width: 200px;
   height: 50px;
   border: none;
-  background-color: #404bbf;
+  background-color: #4693db;;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
