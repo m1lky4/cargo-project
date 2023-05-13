@@ -1,0 +1,57 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-size: 16px;
+}
+.container {
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

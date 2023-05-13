@@ -1,0 +1,13 @@
+:root {
+  --main-bg-color: #ffffff;
+  --main-text-color: #2e2f42;
+  --main-nav-color: #4d5ae5;
+  --main-hover-color: #404bbf;
+  --main-p-color: #434455;
+  --main-p-bottom-color: #f4f4fd;
+  --top-line-color: #e7e9fc;
+  --icon-hover-green: #31d0aa;
+  --customers-border: #8e8f99;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --input-color: rgba(46, 47, 66, 0.2);
+}
