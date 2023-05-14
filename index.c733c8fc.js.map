@@ -1,1 +1,0 @@
-{"mappings":"AAAcA,SAASC,cAAc,UAC/BC,cAAgB,SAAUC,GAC5BA,EAAEC,gB","sources":["src/js/hero.js"],"sourcesContent":["const video = document.querySelector('.video');\nvideo.oncontextmenu = function (e) {\n    e.preventDefault();\n};\n"],"names":["document","querySelector","oncontextmenu","e","preventDefault"],"version":3,"file":"index.c733c8fc.js.map"}
