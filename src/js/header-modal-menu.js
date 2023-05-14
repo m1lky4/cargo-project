@@ -10,3 +10,4 @@ document.addEventListener('click', function(event) {
     modalMenu.style.display = 'none';
   }
 });
+
