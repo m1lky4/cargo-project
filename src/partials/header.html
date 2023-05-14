@@ -6,25 +6,44 @@
           ><img width="140px" height="50px" src="/src/images/logo.png" alt=""
         /></a>
         <ul class="list navigation">
-          <li>
-            <a class="nav-links current services" href="#">Services</a>
-            <ul class="dropdown-content">
-              <li><a href="#">asd</a></li>
-              <li><a href="#">asdasdasd</a></li>
-              <li><a href="#">asdasdasdasd</a></li>
-            </ul>
+          <li class="navigation-list-item">
+            <div class="select-menu active">
+              <div class="select-btn">
+                <span class="sBtn-text nav-links">Service</span>
+                <i class="bx bx-chevron-down"></i>
+              </div>
+
+              <ul class="options">
+                <li class="option">
+                  <i class="bx bxl-instagram-alt" style="color: #e1306c"></i>
+                  <span class="option-text">Instagram</span>
+                </li>
+                <li class="option">
+                  <i class="bx bxl-linkedin-square" style="color: #0e76a8"></i>
+                  <span class="option-text">Linkedin</span>
+                </li>
+                <li class="option">
+                  <i class="bx bxl-facebook-circle" style="color: #4267b2"></i>
+                  <span class="option-text">Facebook</span>
+                </li>
+                <li class="option">
+                  <i class="bx bxl-twitter" style="color: #1da1f2"></i>
+                  <span class="option-text">Twitter</span>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li>
-            <a class="nav-links industries" href="./industries.html"
-              >Industries</a
-            >
+          <li class="industries-item navigation-list-item">
+            <p class="nav-links industries">Industries</p>
             <ul class="industries-dropdown">
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
+              <li><a href="#">hui</a></li>
+              <li><a href="#">chmo</a></li>
+              <li><a href="#">psika</a></li>
             </ul>
           </li>
-          <li><a class="nav-links" href="./about-us.html">About Us</a></li>
+          <li class="navigation-list-item">
+            <a class="nav-links" href="./about-us.html">About Us</a>
+          </li>
         </ul>
       </nav>
       <ul class="list navigation contacts">
@@ -38,10 +57,10 @@
           <div id="modalMenu">
             <form>
               <h3 class="modal-title">Message Us!</h3>
-              <input type="text" placeholder="Name">
-              <input type="text" placeholder="Surname">
-              <input type="text" placeholder="Company">
-              <input type="email" placeholder="Email">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Surname" />
+              <input type="text" placeholder="Company" />
+              <input type="email" placeholder="Email" />
               <button type="submit">Отправить</button>
             </form>
           </div>

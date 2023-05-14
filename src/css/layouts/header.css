@@ -42,13 +42,12 @@
 .navigation {
   display: none;
 }
-.navigation li {
-  margin-right: 40px;
-}
 .navigation li:last-child {
   margin-right: 0;
 }
-
+.navigation-list-item {
+  margin-right: 40px;
+}
 .header {
   position: fixed;
   z-index: 100;
@@ -96,11 +95,6 @@
   margin-right: 76px;
   padding: 12px 0;
 }
-.current {
-  position: relative;
-  color: var(--main-hover-color);
-}
-
 #modalMenu {
   display: none;
   position: fixed;
@@ -111,7 +105,6 @@
   padding: 20px;
   z-index: 9999;
   border-radius: 20px;
-  
 }
 
 #modalMenu ul {
@@ -124,26 +117,26 @@
 }
 
 #modalMenu input {
-  margin-bottom: 40px; 
-  border-radius: 10px; 
-  width: 80vh; 
+  margin-bottom: 40px;
+  border-radius: 10px;
+  width: 80vh;
   height: 40px;
 }
-#modalMenu button{
-  background-color: #3b78c7; 
-  color: white; 
-  padding: 10px 20px; 
-  border: none; 
-  border-radius: 40px; 
-  cursor: pointer; 
+#modalMenu button {
+  background-color: #3b78c7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
   height: 80px;
 }
-#modalMenu button:hover{
+#modalMenu button:hover {
   background-color: blue;
 }
 
 #openModalBtn {
- width: 200px;
+  width: 200px;
   height: 50px;
   border: none;
   background-color: #4693db;
@@ -157,34 +150,34 @@
   background-color: blue;
 }
 
-.modal-title{
-  text-align:center;
-  margin-bottom:10px;
+.modal-title {
+  text-align: center;
+  margin-bottom: 10px;
   color: rgb(110, 110, 180);
 }
 
-input[type="text"],
-input[type="email"] {
-  background-color: #f2f2f2; 
-  border: 1px solid #ccc; 
+input[type='text'],
+input[type='email'] {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
   color: #333;
   padding: 8px;
 }
 
-input[type="text"],
-input[type="email"] {
-  border-radius: 4px; 
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); 
+input[type='text'],
+input[type='email'] {
+  border-radius: 4px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
-
-input[type="text"]:focus,
-input[type="email"]:focus {
+input[type='text']:focus,
+input[type='email']:focus {
   border-color: #743814; /* Цвет границы при фокусе */
   box-shadow: 0 0 4px rgba(76, 175, 80, 0.4); /* Тень при фокусе */
 }
-
-
+.nav-links:hover {
+  color: var(--main-hover-color);
+}
 nav ul li {
   position: relative;
 }
@@ -220,6 +213,12 @@ nav ul li:hover > .dropdown-content {
   color: #333;
   text-decoration: none;
 }
+.services {
+  cursor: pointer;
+}
+.industries {
+  cursor: pointer;
+}
 
 .industries-dropdown {
   display: none;
@@ -240,4 +239,15 @@ nav ul li:hover > .dropdown-content {
   padding: 0.5rem 0;
   color: #333;
   text-decoration: none;
+}
+.industries-item {
+  position: relative;
+}
+.industries-item a {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+}
+.industries-item:hover > .industries-dropdown {
+  display: block;
 }
