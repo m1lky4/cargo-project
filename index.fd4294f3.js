@@ -1,0 +1,2 @@
+const e=document.querySelector(".open-modal-btn"),o=document.querySelector(".popup"),t=document.querySelector("body");e.addEventListener("click",(e=>{e.preventDefault(),o.classList.add("target"),t.classList.add("modal-is-open"),scrollPosition=window.pageYOffset||document.documentElement.scrollTop,window.scrollTo(0,scrollPosition)}));document.querySelector(".video").oncontextmenu=function(e){e.preventDefault()};
+//# sourceMappingURL=index.fd4294f3.js.map
