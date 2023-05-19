@@ -98,3 +98,23 @@
   .modal-is-open {
     overflow: hidden;
   }
+  
+  .popup-form {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    width: 80%;
+  }
+  
+  .popup-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .popup-title {
+    text-align: center;
+    
+  }
