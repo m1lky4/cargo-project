@@ -5,7 +5,7 @@ const body = document.querySelector('body');
 const close = document.querySelector('.close-icon')
 openModalBtn.addEventListener('click', e => {
   e.preventDefault();
-  scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   window.scrollTo(0, scrollPosition);
   backdrop.classList.remove('is-hidden');
   modal.classList.add('is-open');
