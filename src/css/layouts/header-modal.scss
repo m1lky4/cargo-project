@@ -16,13 +16,20 @@
   .is-hidden {
     visibility: hidden;
     opacity: 0;
+    transition: all 500ms ease-in;
   }
   .modal-content {
     position: absolute;
+    max-width: 700px;
+    max-height: 400px;
     bottom: -100vh;
     right: -100vw;
+    border-radius: 14px;
+    padding-right: 20px;
     transform: rotate(180deg);
     transition: all 500ms ease-in;
+    background-color: #fff;
+    overflow: hidden;
     // transform: translate(-50%, -50%);
   }
   .is-open {
@@ -30,21 +37,80 @@
     right: 50%;
     transform: translate(50%, 50%);
     transform: rotate(0deg);
+    transition: all 500ms ease-in;
   }
   .popup-form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
   }
   
   .popup-wrapper {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    background-color: #fff;
   }
 
   .popup-title {
-    text-align: center;
+    // text-align: center;
+    margin-top:20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .modal-img {
+    max-width:230px;
+    min-height: 100%;
+    object-fit: cover;
+  }
+  .modal-content-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+  }
+  .modal-input {
+    border-radius: 24px;
+    padding-left: 10px;
+    height: 25px;
+    outline: none;
+  }
+  .modal-input:focus {
+    border-color: orange;
+  }
+  .send-btn {
     margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 24px;
+    border: 2px solid black;
+    background-color: #fff;
+    font-weight: 500;
+    outline: none;
+    height: 35px;
+    width: 130px;
+    font-size: 16px;
+    font-family: inherit;
+    transition: all 250ms ease;
+  }
+
+  .send-btn:hover, 
+  .send-btn:focus {
+    background-color: orange;
+    color: #fff;
+    border: 2px solid #cc7000;
+  }
+
+  .close-icon {
+    position: absolute;
+    top: -2;
+    right: -2;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 250ms ease;
+  }
+  .close-icon:hover,
+  .close-icon:focus {
+   fill: orange;
+
   }

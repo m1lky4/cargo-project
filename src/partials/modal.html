@@ -1,18 +1,24 @@
 <div class="backdrop is-hidden">
   <div class="modal-content">
-    <div class="popup-wrapper">
-      <h2 class="popup-title">Tell information about yourself</h2>
-      <form class="popup-form">
-        <label for="name">Name</label>
-        <input type="text" name="name" />
-        <label for="name">Surname</label>
-        <input type="text" name="name" />
-        <label for="name">Company name</label>
-        <input type="text" name="name" />
-        <label for="name">E-mail</label>
-        <input type="email" name="name" />
-        <button class="send-btn">Send</button>
-      </form>
+    <div class="modal-content-wrapper">
+      <img class="modal-img" src="/src/images/modal-photo-3.jpg" alt="" />
+      <div class="popup-wrapper">
+        <h2 class="popup-title">Send us a message</h2>
+        <form class="popup-form">
+          <label for="name">Name</label>
+          <input class="modal-input" type="text" name="name" />
+          <label for="name">Surname</label>
+          <input class="modal-input" type="text" name="name" />
+          <label for="name">Company name</label>
+          <input class="modal-input" type="text" name="name" />
+          <label for="name">E-mail</label>
+          <input class="modal-input" type="email" name="name" />
+          <button class="send-btn">Send</button>
+        </form>
+        <svg class="close-icon">
+          <use href="/src/images/icon-close.svg#icon-close"></use>
+        </svg>
+      </div>
     </div>
   </div>
 </div>
